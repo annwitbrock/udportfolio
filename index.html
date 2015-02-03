@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Fonts -->
     <script>
       WebFontConfig = {
         google: { families: [ 'Open+Sans:400,700:latin' ] }
@@ -26,20 +25,39 @@
       ga('create', 'UA-XXXX-Y');
       ga('send', 'pageview');
     </script>
-    <!-- async scripts -->
     <script async defer src="http://www.google-analytics.com/analytics.js"></script> 
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content=" FILL ME IN ">
     <meta name="author" content=" FILL ME IN ">
     <title>Cameron Pittman: Portfolio</title>
+    
     <style>
+      body {
+        margin: 0 auto;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        color: #333;
+      }
+      header, footer, .container {
+        max-width: 45em;
+      }
+      @media only screen and (max-width: 480px) {
+        body { font-size: 12px;}
+        header, footer, .container {
+          max-width: 90%;
+         }
+      }
+      header img{ width:70px; height: 70px;}
+      .content .img { width: 120px; height: 70px;}
+      .content li { list-style-type: none;}
     </style>
   </head>
 
   <body>
     <header>
-      <!--<a href="/"><img alt="profile pic" src="img/profilepicsmall.jpg" style="width:70px;" ></a>-->
+      <a href="/"><img alt="profile pic" src="img/profile6k.jpg" ></a>
       <p>Cameron Pittman<br /><span>Course Developer</span></p>
     </header>
 
@@ -51,19 +69,19 @@
       <div class="content">
         <ul>
           <li>
-            <img alt="2048" src="https://lh4.ggpht.com/kJEnfqhPvtm4m3EneSZ4fWYGS8lW4YNhEjk6zPkyrQaBUHc-2Y_ElDic99NHI0h-UBLXVbRCjFybFvrWxdk=s120" style="width:120px;height:70px;">
+            <img alt="2048" src="https://lh4.ggpht.com/kJEnfqhPvtm4m3EneSZ4fWYGS8lW4YNhEjk6zPkyrQaBUHc-2Y_ElDic99NHI0h-UBLXVbRCjFybFvrWxdk=s120" >
             <a href="project-2048.html">Build Your Own 2048!</a>
             <p>I made my own version of 2048. How cool is that!?</p>
           </li>
 
           <li>
-            <img alt="web opt" src="https://lh6.ggpht.com/f_0W8h__3G99CWTjnMjD8BUKm7yp2-wJyApLtTwFoFtlal2ULf_JgHIsOQq2NiYfKOdMlXlMHDKNo5XVZLs=s120" style="width:120px;height:70px;">
+            <img alt="web opt" src="https://lh6.ggpht.com/f_0W8h__3G99CWTjnMjD8BUKm7yp2-wJyApLtTwFoFtlal2ULf_JgHIsOQq2NiYfKOdMlXlMHDKNo5XVZLs=s120" >
             <a href="project-webperf.html">Website Performance Optimization</a>
             <p>Hey... this class looks familiar.</p>
           </li>
 
           <li>
-            <img alt="mob web" src="https://lh5.ggpht.com/IKdCmTWn8a2nMhlwMYzryvzRN5CUZAOBr4tDrEAbszV7TIFe9pRAInA4kkYcgTXwrifJsBEsq1agTueuu-g=s120" style="width:120px;height:70px;" >
+            <img alt="mob web" src="https://lh5.ggpht.com/IKdCmTWn8a2nMhlwMYzryvzRN5CUZAOBr4tDrEAbszV7TIFe9pRAInA4kkYcgTXwrifJsBEsq1agTueuu-g=s120" >
             <a href="project-mobile.html">Mobile Web Development</a>
             <p>Making mobile apps isn't so hard after all.</p>
           </li>
